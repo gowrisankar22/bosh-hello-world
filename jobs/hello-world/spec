@@ -1,7 +1,8 @@
 ---
 name: hello-world
 
-templates: {}
+templates:
+    bin/ctl.sh: bin/ctl.sh
 
 packages: []
 
