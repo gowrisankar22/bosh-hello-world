@@ -4,6 +4,7 @@ name: hello-world
 templates:
     bin/ctl.sh: bin/ctl.sh
 
-packages: []
+packages:
+    - go-tournament
 
 properties: {}
