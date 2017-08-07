@@ -1,0 +1,4 @@
+name: go-tournament
+dependencies: {}
+files:
+- go-tournament
