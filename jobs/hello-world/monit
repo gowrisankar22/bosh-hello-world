@@ -1,5 +1,5 @@
 check process go-hello-world
-    with pidfile /var/vcap/sys/run/hello-world/pid
+    with pidfile /var/vcap/sys/run/bosh-hello-world/pid
     start program "/var/vcap/jobs/hello-world/bin/ctl.sh start"
     stop program "/var/vcap/jobs/hello-world/bin/ctl.sh stop"
     group vcap
