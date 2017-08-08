@@ -1,4 +1,5 @@
 # Upload cloud config
+This cloud config is for Google Cloud Platform (europe-west-1-b) based on the cloud config found in: https://github.com/FINkit/learn-bosh-on-gcp-release
 ```
 cd ~/
 git clone https://github.com/dazjones/bosh-cloud-configs
