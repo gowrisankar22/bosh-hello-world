@@ -1,3 +1,5 @@
 name: go-tournament
+dependencies:
+  - golang
 files:
-- go-tournament
+  - go-tournament
