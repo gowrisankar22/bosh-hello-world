@@ -2,4 +2,7 @@ name: go-tournament
 dependencies:
   - golang
 files:
-  - go-tournament
+  - https://github.com/dazjones/go-tournament
+  - https://github.com/ant0ine/go-json-rest/rest
+  - https://github.com/jinzhu/gorm
+  - https://github.com/jinzhu/gorm/dialects/sqlite
