@@ -22,3 +22,9 @@
 [submodule "src/golang.org/x/sync"]
 	path = src/golang.org/x/sync
 	url = https://go.googlesource.com/sync
+[submodule "src/gopkg.in/yaml.v2"]
+	path = src/gopkg.in/yaml.v2
+	url = https://gopkg.in/yaml.v2
+[submodule "src/github.com/jinzhu/inflection"]
+	path = src/github.com/jinzhu/inflection
+	url = https://github.com/jinzhu/inflection

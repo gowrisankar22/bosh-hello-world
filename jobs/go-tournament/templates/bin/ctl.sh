@@ -15,7 +15,7 @@ case $1 in
 
         cd /var/vcap/packages/go-tournament
 
-        exec /var/vcap/packages/go-tournament/go-tournament \
+        exec /var/vcap/packages/go-tournament/bin/go-tournament \
             >>  $LOG_DIR/bosh_hello_world-go_tournament.stdout.log \
             2>> $LOG_DIR/bosh_hello_world-go_tournament.stderr.log
 
