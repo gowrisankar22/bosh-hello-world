@@ -5,6 +5,7 @@ templates:
     bin/ctl.sh: bin/ctl.sh
 
 packages:
+    - golang
     - go-tournament
 
 properties: {}
