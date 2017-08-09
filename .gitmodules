@@ -4,6 +4,3 @@
 [submodule "src/github.com/jinzhu/gorm"]
 	path = src/github.com/jinzhu/gorm
 	url = https://github.com/jinzhu/gorm.git
-[submodule "src/github.com/go-tournament"]
-	path = src/github.com/go-tournament
-	url = https://github.com/dazjones/go-tournament
