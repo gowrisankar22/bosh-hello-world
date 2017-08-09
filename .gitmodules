@@ -10,3 +10,15 @@
 [submodule "src/github.com/mattn/go-sqlite3"]
 	path = src/github.com/mattn/go-sqlite3
 	url = https://github.com/mattn/go-sqlite3
+[submodule "src/golang.org/x/crypto"]
+	path = src/golang.org/x/crypto
+	url = https://go.googlesource.com/crypto
+[submodule "src/golang.org/x/net"]
+	path = src/golang.org/x/net
+	url = https://go.googlesource.com/net
+[submodule "src/golang.org/x/oauth2"]
+	path = src/golang.org/x/oauth2
+	url = https://go.googlesource.com/oauth2
+[submodule "src/golang.org/x/sync"]
+	path = src/golang.org/x/sync
+	url = https://go.googlesource.com/sync
