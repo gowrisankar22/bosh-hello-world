@@ -7,3 +7,6 @@
 [submodule "src/github.com/dazjones/go-tournament"]
 	path = src/github.com/dazjones/go-tournament
 	url = https://github.com/dazjones/go-tournament
+[submodule "src/github.com/mattn/go-sqlite3"]
+	path = src/github.com/mattn/go-sqlite3
+	url = https://github.com/mattn/go-sqlite3
