@@ -1,14 +1,9 @@
-[submodule "src/github.com/dazjones/go-tournament"]
-    path = src/github.com/dazjones/go-tournament
-    url = http://github.com/dazjones/go-tournament
-    branch = master
-
-[submodule "src/github.com/ant0ine/go-json-rest/rest"]
-    path = src/github.com/ant0ine/go-json-rest/rest
-    url = http://github.com/ant0ine/go-json-rest/rest
-    branch = master
-
+[submodule "src/dazjones/go-tournament"]
+	path = src/github.com/dazjones/go-tournament
+	url = https://github.com/dazjones/go-tournament
+[submodule "src/github.com/ant0ine/go-json-rest"]
+	path = src/github.com/ant0ine/go-json-rest
+	url = https://github.com/ant0ine/go-json-rest.git
 [submodule "src/github.com/jinzhu/gorm"]
-    path = src/github.com/jinhzu/gorm
-    url = http://github.com/jinhzu/gorm
-    branch = master
+	path = src/github.com/jinzhu/gorm
+	url = https://github.com/jinzhu/gorm.git
