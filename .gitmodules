@@ -1,6 +1,3 @@
-[submodule "src/dazjones/go-tournament"]
-	path = src/github.com/dazjones/go-tournament
-	url = https://github.com/dazjones/go-tournament
 [submodule "src/github.com/ant0ine/go-json-rest"]
 	path = src/github.com/ant0ine/go-json-rest
 	url = https://github.com/ant0ine/go-json-rest.git
