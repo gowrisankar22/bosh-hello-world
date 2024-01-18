@@ -1,33 +1,30 @@
----
-name: bosh-hello-world
+name: hello-world-deployment
 
 releases:
-- name: bosh-hello-world
+- name: hello-world
   version: latest
 
 stemcells:
 - alias: default
-  os: ubuntu-trusty
-  version: latest
+  os: ubuntu-jammy
+  version: "1.340"
 
 update:
   canaries: 1
-  max_in_flight: 1
+  max_in_flight: 10
   canary_watch_time: 1000-30000
   update_watch_time: 1000-30000
 
 instance_groups:
-- name: bosh-hello-world
-  azs:
-  - z1
+- name: server
+  azs: [z1]
   instances: 1
-  jobs:
-  - name: go-tournament
-    release: bosh-hello-world
-    properties: {}
-  vm_type: g1-small
+  vm_type: n1-standard-1
   stemcell: default
   networks:
   - name: default
-    static_ips:
-    - 10.0.0.10
+  jobs:
+  - name: hello-world
+    templates:
+    - name: hello-world
+      release: hello-world
